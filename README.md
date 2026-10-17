@@ -9,7 +9,7 @@ immersive experience to reach the ultimate experience of 1000-7!
 
 At first used my
 calculator project as a base sample for reference and guidance, until
-removing all other operations to leave only substraction, then I did… **redesigned the architecture from scratch to support a specialized psychological loop—implementing a custom state machine for sequential subtraction, dynamic DOM injection for atmospheric overlays, multi-tiered milestone tracking, and an infinite number-line engine for Centipede Mode.**
+removing all other operations to leave only substraction, then, I redesigned the architecture from scratch to support a specialized psychological loop—implementing a custom state machine for sequential subtraction, dynamic DOM injection for atmospheric overlays, multi-tiered milestone tracking, and an infinite number-line engine for Centipede Mode.**
 
 For all purposes,
 please consider this project, as what it is: a form of fanart.
