@@ -1,6 +1,6 @@
 # 1000-7: A wholesome unique calcaulator to feel 1000-7 to the fullest!
 
-After grasping the basics with the calculator from the assignment from The Odin Project, I had to make my own version, the exact way I had always dreamed it. A wholesome calculator whose purpose is not just to do math, but to help ground you, and not lose your mind, aimed for an overstimulated, broken distressed mind that needs to be rewired. With this capstone project from Foundations Odin Project, I have made another dream come true, and it is all mine!
+After grasping the basics with the calculator from the assignment from The Odin Project, I had to make my own version, the exact way I had always dreamed it. A wholesome calculator whose purpose is not just to do math, but to help ground you, and not lose your mind, aimed for an overstimulated, broken distressed mind that needs to be rewired. With this capstone project from Foundations Odin Project, I have made another dream come true, and it is all mine! Kaneki is a character that always resonated with me, and that is why doing this feels on a greater evel. 
 
 Tokyo Ghoul is not
 mine, however, it belongs to its creator, **Sui Ishida**. It draws
@@ -49,5 +49,6 @@ This project is built using vanilla web technologies, focusing on modular state 
 ### 6. Input Flexibility
 * Fully supports both mouse/touch interaction via an on-screen button grid and complete physical keyboard event listeners (`Enter`, `Backspace`, `Escape`, digits `0-9`, and `-`).
 
+##7. I made anoter tweak, and included Kaneki's eye, with svg.
 ---
 

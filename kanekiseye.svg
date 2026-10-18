@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 20 380 160" width="380" height="160">
+
+  <!-- 1. Eye shape, saved as a clip so the iris gets cut off at the eyelids -->
+  <defs>
+    <clipPath id="eye-clip">
+      <path d="M60 120 C100 55 160 40 215 42 C270 44 305 75 325 108 C285 150 230 165 185 165 C130 165 85 150 60 120 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- 2. Black sclera: the same shape, filled black -->
+  <path d="M60 120 C100 55 160 40 215 42 C270 44 305 75 325 108 C285 150 230 165 185 165 C130 165 85 150 60 120 Z" fill="#0a0a0c"/>
+
+  <!-- 3. Iris: stacked circles, biggest to smallest, all sharing the same center -->
+  <g clip-path="url(#eye-clip)">
+    <circle cx="195" cy="104" r="58" fill="#6e050d"/>
+    <circle cx="195" cy="104" r="52" fill="#cf111b"/>
+    <circle cx="195" cy="104" r="40" fill="#e8232c"/>
+
+    <!-- Spokes: a thick dashed circle outline looks like radial lines -->
+    <circle cx="195" cy="104" r="29" fill="none" stroke="#a50d16" stroke-width="22" stroke-dasharray="2 6.2" opacity="0.8"/>
+
+    <circle cx="195" cy="104" r="20" fill="#a50d16"/>
+
+    <!-- Shadow from the upper eyelid -->
+    <path d="M142 78 A59 59 0 0 1 248 78 Q195 66 142 78 Z" fill="#6e050d" opacity="0.75"/>
+
+    <!-- Pupil and highlights -->
+    <circle cx="195" cy="104" r="12" fill="#050505"/>
+    <circle cx="168" cy="76" r="11" fill="#ffffff"/>
+    <circle cx="224" cy="130" r="5" fill="#ffffff" opacity="0.9"/>
+  </g>
+
+  <!-- 4. Eyelids drawn last, so they sit on top of the iris -->
+  <path d="M60 120 C100 55 160 40 215 42 C270 44 305 75 325 108" fill="none" stroke="#5a5a62" stroke-width="10" stroke-linecap="round"/>
+  <path d="M325 108 Q338 100 352 86" fill="none" stroke="#5a5a62" stroke-width="7" stroke-linecap="round"/>
+  <path d="M60 120 C100 55 160 40 215 42 C270 44 305 75 325 108" fill="none" stroke="#0a0a0c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M325 108 Q338 100 352 86" fill="none" stroke="#0a0a0c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M325 108 C285 150 230 165 185 165 C130 165 85 150 60 120" fill="none" stroke="#5a5a62" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
